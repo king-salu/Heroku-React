@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Getting Started with *PARTNER HERO SPOITIFY INTEGRATION* REACT App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://serene-chamber-55859.herokuapp.com/](https://serene-chamber-55859.herokuapp.com/) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is the front end development of the application, which runs with the backend development \
+Open [https://lit-dawn-26115.herokuapp.com/](https://lit-dawn-26115.herokuapp.com/) 
+developed using Node.
 
-### `npm test`
+## Caution
+*Please not the config.env file has been removed from the git repository as instructed. It will be forwarded to assessment supervisor as an email
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
+Using Heroku, Deployment was made possible after installing create-react-app-buildpack by mars buildpack on the application service,
+more information about this service through here \ 
+Open [https://github.com/mars/create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack)
 
-### `npm run build`
+## Implementations
+* Login Screen through Spotify’s authentication method.
+* Logout methods.
+* Display all song descriptions within the “New Releases” and “My Library” in the form of thumbnail previews with their respective album art, title and action button
+* Display all song descriptions within the result section on the home screen in the form of rows alongside their action button.
+* Save only the necessary user and songs information within Firebase *(mongoDB was used instead)*
+* Ability to see and remove any of the songs saved to “My Library” from anywhere they may be accessible from (as for example, the results within the Home Page and the New Releases section).
+* Ability to see and add any of the songs from New Releases and Search Results.
+* Ability to be able to scale the application by changing the window’s dimension without ruining the proposed design (Mobile friendly).
+* Display proper error messages when the HTTP request cannot be completed.
+* Unit testing for the functionality.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Limitations
+The following were not acheivable due to limited time
+* Export “My Library” to my Spotify account as a new playlist.
+* Save “My Library” data into the redux store while it is being used in the app.
+* Typescript as a template for your React project.
+* Persisting favorited data on a NoSQL Database (Firebase, Mongo, etc.).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Addtions that could have been added if available time was not limited
+* Feedback response when a song is added or removed from My Library
+* A sort for "New Release" to get songs that are and/ or not in my Library
