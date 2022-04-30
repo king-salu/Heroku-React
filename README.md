@@ -11,6 +11,9 @@ developed using Node.
 ## Caution
 *Please not the config.env file has been removed from the git repository as instructed. It will be forwarded to assessment supervisor as an email*
 
+## Database
+The database used fo this was MongoDB NoSQL.
+
 ## Deployment
 Using Heroku, Deployment was made possible after installing create-react-app-buildpack by mars buildpack on the application service,
 more information about this service through here \ 
