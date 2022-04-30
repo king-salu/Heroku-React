@@ -9,8 +9,7 @@ Open [https://lit-dawn-26115.herokuapp.com/](https://lit-dawn-26115.herokuapp.co
 developed using Node.
 
 ## NOTE ⚠️
-*Please note that the config.env file has been removed from the git repository as instructed. It will be forwarded to the assessment supervisor as an email.
-Also, Spotify requires a limit of 25 users to be able to access the application, for testing it will be expected to use my details for testing which will also 
+*Spotify requires a limit of 25 users to be able to access the application, for testing it will be expected to use my details for testing which will also 
 be forwarded to the assessment supervisor, or preferably a test user can forward their spotify fullname and email to the email address: johndele94@gmail.com
 and I will add it. 👌*
 
