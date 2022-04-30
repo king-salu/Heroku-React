@@ -9,7 +9,7 @@ export function urls(type = ''){
     while(count_in >= 0){
         switch(type){
             case "main_front":
-                _url['main_front'] = 'https://afternoon-crag-43678.herokuapp.com';
+                _url['main_front'] = 'https://serene-chamber-55859.herokuapp.com';
                 count_in = -10;
                 break;
 
